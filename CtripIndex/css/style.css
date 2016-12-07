@@ -1,0 +1,1893 @@
+body,div,p,a,ul,li,dl,dt,dd,ol,hr,h1,h2,h3,input,button{
+	margin:0;
+	border: 0;
+	padding:0;
+	font-size: 0;
+}
+/* --- 顶部元素 start --- */
+.headertop{
+	display: inline-block;
+	width: 1180px;
+	position: relative;
+	margin: 10px auto;
+}
+.toplogo{
+	display: inline-block;
+	width: 120px;
+	height: 45px;
+	position: absolute;
+	left: 0;
+	background-image: url("../img/ctriplogo.png");
+}
+.toplogo a{
+	display: inline-block;
+	width: 120px;
+	height: 45px;
+}
+.topdivl-style{
+	vertical-align: top;
+	display: inline-block;
+	width: 590px;
+	height: 45px;
+	position: relative;
+	font-size: 12px;
+}
+.topdivr-style{
+	vertical-align: top;
+	display: inline-block;
+	width: 590px;
+	height: 45px;
+	position: relative;
+	font-size: 12px;
+	text-align: right;
+}
+.topsearchdiv-style{
+	display: inline-block;
+	width: 350px;
+	height: 30px;
+	position: absolute;
+	right: 0;
+	bottom: 7px;
+}
+.topsearchdiv-style input{
+	width: 318px;
+	height: 28px;
+	border: 1px solid #83AEFF;
+	float: left;
+}
+.topsearchdiv-style input:focus + button{
+	background-image: url("../img/sbtn30-1.png");
+}
+.topsearchdiv-style button{
+	width: 30px;
+	height: 30px;
+	background-image: url("../img/sbtn30-2.png");
+}
+.topsearchdiv-style button:hover {
+	background-image: url("../img/sbtn30-1.png");
+}
+
+/* ---语言选择下拉框--- */
+.lang-dropdown {
+	display: inline-block;
+	position: relative;
+	top: 4px;
+}
+.lang-dropdown a{
+	font-size: 12px;
+	color: black;
+	display: inline-block;
+	margin: 2px;
+	text-decoration: none;
+}
+.lang-dropdown img{
+	width: 20px;
+	height: 20px;
+	margin: 2px 2px;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+}
+/* 语言选择下拉框内容 */
+.lang-dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #DDE1E6;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0);
+	margin: -8px 0 0;
+	padding: 3px;
+	z-index: 5;
+	text-align: left;
+}
+.lang-dropdown-content a {
+	font-size: 12px;
+	color: black;
+	margin: 2px;
+	padding: 5px 6px;
+	text-decoration: none;
+	display: block;
+	border-top: 1px dotted #DEDEDE;
+}
+.lang-dropdown-content img {
+	width: 12px;
+	height: 12px;
+	margin: 0px 2px;
+	vertical-align: middle;
+}
+.lang-dropdown-content a:hover {background-color: #E7E7E7;}
+.lang-dropdown:hover .lang-dropdown-content{display: block;}
+.lang-content-in{
+	display: inline-block;
+	width: 145px;
+	height: 326px;
+	margin: -3px 0px -3px 0px;
+	padding: 1px;
+	background-color: white;
+	position: relative;
+	top: 3px;
+	left: 3px;
+}
+.lang-content-out{
+	display: inline-block;
+	width: 153px;
+	height: 330px;
+	border: 1px solid #A9A9A9;
+	background-color: white;
+	z-index: 1;
+}
+.lang-dropdown:hover .lang-dropdown-aout{background-color: #DDE1E6;}
+.lang-dropdown-aout{
+	display: inline-block;
+	width: 104px;
+	height: 36px;
+	text-align: left;
+}
+.lang-dropdown:hover .lang-dropdown-ain{
+	border-top: 1px solid #A9A9A9;
+	border-right: 1px solid #A9A9A9;
+	border-bottom: 1px solid white;
+	border-left: 1px solid #A9A9A9;
+}
+.lang-dropdown-ain{
+	display: inline-block;
+	width: 96px;
+	height: 28px;
+	border:1px solid white;
+	background-color: white;
+	position: relative;
+	top: 3px;
+	left: 3px;
+	z-index: 6;
+}
+
+/* 客服电话下拉框 */
+.numb-dropdown{
+	display: inline-block;
+	position: relative;
+	top: 3px;
+}
+.numb-dropdown a{
+	font-size: 12px;
+	color: black;
+	display: inline-block;
+	width: 104px;
+	margin: 6px 0px ;
+	text-decoration: none;
+	text-align: center;
+}
+.numb-dropdown-aout{
+	display: inline-block;
+	width: 116px;
+	height: 28px;
+	text-align: left;
+}
+.numb-dropdown-ain{
+	display: inline-block;
+	width: 108px;
+	height: 22px;
+	border: 1px solid white;
+	padding: 0px 0px 5px 0px;
+	background-color: white;
+	position: relative;
+	top: 3px;
+	left: 3px;
+	z-index: 8;
+}
+.numb-dropdown-content{
+	display: none;
+	width: 196px;
+	height: 82px;
+	background-color: #DDE1E6;
+	position: absolute;
+	right: 0px;
+	padding: 3px;
+	z-index: 6;
+}
+.numb-dropdown-content a{
+	display: inline-block;
+	width: 180px;
+	font-size: 12px;
+	color: black;
+	margin: 2px;
+	padding: 2px 6px;
+	text-decoration: none;
+	text-align: right;
+	cursor: default;
+}
+.numb-content-ain{
+	display: inline-block;
+	width: 188px;
+	height: 74px;
+	background-color: white;
+	padding: 3px;
+	border: 1px solid #A9A9A9;
+}
+.numb-dropdown:hover .numb-dropdown-content{
+	display: block;
+}
+.numb-dropdown:hover .numb-dropdown-aout{
+	background-color: #DDE1E6;
+}
+.numb-dropdown:hover .numb-dropdown-ain{
+	border-top: 1px solid #A9A9A9;
+	border-right: 1px solid #A9A9A9;
+	border-bottom: 1px solid white;
+	border-left: 1px solid #A9A9A9;
+}
+/* 客服中心-文字 */
+.ccenterstyle{
+	display: inline-block;
+}
+.ccenterstyle a{
+	position: relative;
+	top: 6px;
+	color: #4C4C4C;
+	font: 12px Arial, tahoma, verdana, "Microsoft YaHei", sans-serif;
+	text-decoration: none;
+}
+.ccenterstyle a:hover{
+	text-decoration: underline;
+}
+/* 二维码 */
+.qrstyle{
+	display: inline-block;
+	position: relative;
+	top: 8px;
+	text-align: left;
+}
+.qrstyle img{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+.qr-content-style{
+	display: none;
+	width: 162px;
+	height: 224px;
+	background-color: #DDE1E6;
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	margin: 7px 0px 0px; 
+	z-index: 2; 
+}
+.qrstyle:hover .qr-content-style{
+	display: block;
+}
+.innerdiv-style{
+	display: inline-block;
+	width: 150px;
+	height: 212px;
+	background-color: white;
+	border: 1px solid #A9A9A9;
+	padding: 2px;
+	text-align: center;
+	position: relative;
+	top: 3px;
+	left: 3px;
+}
+.innerdiv-style img{
+	display: inline-block;
+	width: 112px;
+	height: 112px;
+}
+.inner-topdiv{
+	color: #3882E5;
+	margin: 19px 0px;
+	font: 12px/1.5 "Microsoft yahei",arial, sans-serif;
+}
+.inner-bottomdiv{
+	width: 100%;
+	height:30px;
+	margin: 16px 0 0 0;
+	font: 12px/1.5 "Microsoft yahei",arial, sans-serif;
+	color: #000;
+}
+#qrapp_bottomdiv{
+	background-color: #F0F0F0;
+	width: 154px;
+	height: 36px;
+	margin-top: 10px;
+	position: relative;
+	left: -2px;
+}
+/* --- 顶部元素 end --- */
+
+/* --- 导航栏 start --- */
+.nav-style {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	height: 40px;
+	margin: 0 0 9px;
+	background-color: #2577E3;
+}
+.nav-ul{
+	display: block;
+	width: 1180px;
+	height: 40px;
+}
+.nav-ul li{
+	display: inline-block;
+	float: left;
+}
+.nav-ul li:hover {
+	background-color: #0A56BB;
+}
+/*--箭头旋转--*/
+.nav-ul li:hover i{
+	-webkit-transform: rotate(-180deg);//Safari 4+,Google Chrome 1+
+	-moz-transform: rotate(-180deg);//Firefox 3.5+
+}
+.nav-ul li:hover b{
+	display: inline-block;
+}
+.nav-ul li:hover .nav-content{
+	display: block;
+}
+.nav-ul a{
+	display: inline-block;
+	position: relative;
+	color: #FFF;
+	font: 15px/1.5 "Microsoft yahei",arial, sans-serif;
+	line-height: 40px;
+	padding: 0px 8px;
+	text-decoration: none;
+}
+.nav-ul i{
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 3px solid #FFF;
+	margin: 0 0 2px 6px;
+}
+.nav-ul b{
+	display: none;
+	position: absolute;
+	top: 26px;
+	left: 22px;
+	width: 0px;
+	height: 7px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid #FFF;
+}
+.nav-content{
+	display: none;
+	width: 1178px;
+	height: 38px;
+	position: absolute;
+	left: 43px;
+	top: 40px;
+	margin: 0;
+	border: 1px solid #2577E3;
+	border-top: 0;
+	background-color: #FFF;
+	font-size: 14px;
+	color: #BEBEC7;
+	z-index: 4;
+}
+.content-left{
+	display: inline-block;
+	position: absolute;
+	float: left;
+	font-size: 14px;
+	color: #BEBEC7;
+}
+.content-left a{
+	font-size: 14px;
+	color: #333;
+	padding: 0 2px;
+}
+.content-left a:hover{
+	color: #06C;
+}
+.content-right{
+display: inline-block;
+position: absolute;
+right: 10px;
+}
+.content-right p{
+	display: inline-block;
+	position: relative;
+	height: 16px;
+	width: 16px;
+	padding: 4px 2px;
+	background-image: url("../img/un_icon.png");
+	vertical-align: middle;
+}
+.content-right a{
+	font-size: 14px;
+	color: #333;
+	padding: 0 2px;
+}
+.content-right a:hover{
+	color: #06C;
+}
+/* 登录 */
+.login-style{
+	display: inline-block;
+	position: relative;
+}
+.login-ul-style{
+	display: inline-block;
+	height: 40px;
+	width: 160px;
+	background-color: #FF9913;
+	list-style-type: none;
+	text-align: left;
+}
+.login-ul-style:hover .login-content{
+	display: block;
+}
+.litop{
+	display: inline-block;
+	position: relative;
+}
+.litop p{
+	display: inline-block;
+	width: 22px;
+	height: 18px;
+	float: left;
+	background-image: url("../img/un_header.png");
+	background-position: -59px -179px;
+}
+.litop a, span{
+	position: relative;
+	font: 12px/1.5 "Microsoft yahei",arial, sans-serif;
+	color: #FFF;
+}
+.libottom a{
+	font: 15px/1.5 "Microsoft yahei",arial, sans-serif;
+	color: #FFF;
+}
+.libottom a:hover{
+	text-decoration: underline;
+}
+.litop a:hover{
+	text-decoration: underline;
+}
+.login-content{
+	display: none;
+	position: absolute;
+	top: 40px;
+	width: 158px;
+	height: 103px;
+	background-color: #FFF;
+	border: 1px solid #DDE1E6;
+	border-top: 0;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	z-index: 2;
+}
+.login-content button{
+	height: 33px;
+	width: 128px;
+	background-color: #FFBA14;
+	margin: 10px 15px 5px 15px;
+	border: 1px solid #D5790A;
+	border-radius: 3px;
+	text-shadow: 1px 1px 0 #E57C00;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	font-size: 16px;
+	color: #FFF;
+	vertical-align: middle;
+}
+.login-content a{
+	display: block;
+	margin: 2px 8px 8px;
+	color: #004AC2;
+	font: 12px/1.5 "Microsoft yahei",arial, sans-serif;
+}
+.login-content a:hover{
+	text-decoration: underline;
+}
+/* --- 导航栏 end --- */
+
+/* --- 国际旅行直通车 start --- */
+.intltrip{
+	position: relative;
+	height: 24px;
+	width: 1180px;
+	z-index: 1;
+}
+.intltrip h2{
+	display: inline-block;
+	height: 22px;
+	width: auto;
+	position: absolute;
+	left: 0;
+	padding: 0px 5px;
+	background-color: #74a8ed;
+	border-radius: 3px;
+	color: #FFF;
+	font: 12px/1.5 "Microsoft yahei",arial, sans-serif;
+	line-height: 22px;
+	vertical-align: middle;
+}
+.intltrip-ul{
+	display: inline-block;
+	position: relative;
+	line-height: 22px;
+	vertical-align: middle;
+	list-style-type: none;
+}
+.intltrip-ul li{
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin: 0 14px 0 0;
+	padding: 0 5px;
+}
+.intltrip-ul i{
+	display: inline-block;
+	position: relative;
+	height: 16px;
+	width: 16px;
+	padding: 4px 2px;
+	background-image: url("../img/un_icon.png");
+	vertical-align: middle;
+}
+.intltrip-ul a{
+	display: inline-block;
+	text-decoration: none;
+	color: #666;
+	font: 12px/1.5 "Microsoft yahei",arial, sans-serif;
+	line-height: 22px;
+}
+.intltrip-ul a:hover {
+	color: #2577E3;
+}
+/* --- 国际旅行直通车 end --- */
+
+/* --- 高级搜索及广告轮播部分 start --- */
+.search-board{
+	display: inline-block;
+	width: 100%;
+	height: 340px;
+	margin: 10px 0 0 0;
+	position: relative;
+}
+.search-board ul,li{
+	list-style: none;
+}
+/*--背景广告图片轮播--*/
+.banner-pic{
+	width: 100%;
+	height: 340px;
+	position: absolute;
+}
+.banner-picul{
+	width: 100%;
+	height: 340px;
+	overflow: hidden;
+}
+.banner-picul li{
+	display: none;
+}
+.banner-picul .imgOn{
+	display: inline;
+}
+.banner-picul img{
+	display: inline-block;
+	width: 1920px;
+	height: 340px;
+	/*margin-left: -300px;*/
+}
+/*--轮播序号列表样式--*/
+.banner-indexul{
+	display: inline-block;
+	position: absolute;
+	width: 85px;
+	height: 17px;
+	top: 280px;
+	left: 800px;
+}
+.banner-indexul li{
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	margin: 0 3px;
+	border: 2px solid #FFF;
+	border-radius: 5px;
+	cursor: default;
+	background-color: rgba(0,0,0,0.2);
+}
+.banner-indexul .indexOn{
+	background-color: #FFF;
+}
+/*--左侧搜索框--*/
+.search-menu{
+	display: inline-block;
+	width: 1180px;
+	height: 340px;
+	position: relative;
+}
+.search-menu-style{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 300px;
+	width: 595px;
+	margin: 20px 0;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	background-color: #FFF;
+	text-align: left;
+}
+.search-menu-ul{
+	display: inline-block;
+	position: relative;
+	width: 90px;
+	height: 300px;
+	background-color: #FF9913;
+}
+.search-menu-ul li{
+	display: inline-block;
+	width: 75px;
+	height: 42px;
+	border-top: 0;
+	padding: 0 0 0 15px;
+	background-color: #2577E3;
+	font: 16px/42px "Microsoft YaHei", Tahoma, Verdana, Arial, sans-serif;
+	color: #FFF;
+}
+.search-menu-ul li:hover {
+	width: 75px;
+	height: 42px;
+	margin: 0 0 0 5px;
+	border-top: 0;
+	padding: 0 0 0 10px;
+	cursor: pointer;
+	color: #2577E3;
+	background-color: #FFF;
+}
+#s_hotel{
+	width: 75px;
+	height: 42px;
+	margin: 0 0 0 5px;
+	border-top: 0;
+	padding: 0 0 0 10px;
+	cursor: pointer;
+	color: #2577E3;
+	background-color: #FFF;
+}
+.search-menu-info{
+	display: inline-block;
+	position: absolute;
+	left: 110px;
+	width: 470px;
+	height: 290px;
+}
+.search-menu-info hr{
+	border:none;
+	width: 460px;
+	border-top: 2px solid #D2D2D2;
+}
+.search-menu-info-top{
+	display: inline-block;
+	position: relative;
+	width: auto;
+	height: 42px;
+}
+.search-menu-info-top ul{
+	display: inline-block;
+	position: relative;
+	list-style: none;
+	margin: 16px 0 0 0;
+}
+.search-menu-info-top ul li{
+	display: inline-block;
+	height: auto;
+	margin: 0 12px 0 0;
+}
+.search-menu-info-top ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #666;
+	font: 14px "Microsoft yahei",arial, sans-serif;
+	line-height: 22px;
+	font-weight: bold;
+}
+.search-menu-info-top ul li a:hover {
+	color: #06C;
+	cursor: pointer;
+}
+.search-menu-info-form{
+	display: inline-block;
+	width: 460px;
+	height: 230px;
+	margin-top: 10px;
+}
+.search-menu-info-form div{
+	height: 30px;
+	margin: 5px 0 5px 5px;
+	padding: 3px 0;
+	font: 14px "Microsoft YaHei", Tahoma, Verdana, Arial, sans-serif;
+	color: #333;
+	text-align: right;
+}
+.search-menu-info-form div button{
+	position: relative;
+	height: 33px;
+	width: 145px;
+	color: #FFF;
+	font: 16px "Microsoft YaHei", Tahoma, Verdana, Arial, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	background-color: #FFB000;
+	border: solid 1px #E77C00;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(95, 50, 0, 0.7);
+	text-shadow: 1px 1px 0 #CF7000;
+}
+.search-menu-info-form div button:hover{
+	background-color: #FFA000;
+	cursor: pointer;
+}
+.search-menu-info-form div input{
+	display: inline-block;
+	width: 385px;
+	height: 28px;
+	padding-left: 3px;
+	border-color: #bbb #ddd #ddd #bbb;
+	border-style: solid;
+	border-width: 1px;
+	font: 14px/28px "Microsoft YaHei", Tahoma, Verdana, Arial, sans-serif;
+	box-shadow: 1px 1px 1px #ddd inset;
+}
+#searchHotelIOdate{
+	display: inline-block;
+	float: left;
+	margin: 5px 0 0 4px;
+}
+#searchHotelLevel{
+	display: block;
+	width: auto;
+	height: 30px;
+	margin: 12px 0 6px 9px;
+	text-align: left;
+	line-height: 30px;
+}
+/* --- 高级搜索及广告轮播部分 end --- */
+
+/* --- Content start --- */
+.content{
+	padding: 30px 0;
+	background-color: #F4F4F4;
+}
+/* --- 模块公用头部 start--- */
+.module-title{
+	display: inline-block;
+	position: relative;
+	width: 1180px;
+	height: 38px;
+}
+.module-title hr{
+	width: 1178px;
+	border: 1px solid #2577E3;
+}
+.module-title-ul{
+	display: inline-block;
+	width: 1180px;
+	height: 36px;
+}
+.module-title-ul li{
+	display: inline-block;
+	text-decoration: none;
+}
+.module-title-ul a{
+	position: relative;
+	display: inline-block;
+	height: 36px;
+	margin-right: 30px;
+	color: #333;
+	font: 16px "Microsoft yahei",arial, sans-serif;
+	line-height: 36px;
+	text-decoration: none;
+}
+.module-title-ul a:hover{color: #2577E3;}
+.module-title-ul a i{
+	display: none;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 0px;
+	height: 7px;
+	margin: 0 -7px;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid #2577E3;
+}
+.module-title-ul a:hover i{display: block;}
+.module-title-ul > li:first-child a{
+	color: #2577E3;
+}
+.module-title-city{
+	display: inline-block;
+	position: absolute;
+	top: 16px;
+	right: 5px;
+}
+.module-title-city a{
+	color: #2577E3;
+	font: 12px "Microsoft yahei",arial, sans-serif;
+	text-decoration: none;
+}
+.module-title-city a b{
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #2577E3;
+	margin: 0 0 2px 3px;
+}
+.module-title-city a:active b{
+	-webkit-transform: rotate(-180deg);//Safari 4+,Google Chrome 1+
+	-moz-transform: rotate(-180deg);//Firefox 3.5+
+}
+/* --- 模块公用头部 end--- */
+
+/* --- 旅游模块 start --- */
+.trip-module{
+	position: relative;
+	width: 1180px;
+	height: 425px;
+	padding: 0 42.5px;
+	text-align: left;
+}
+.trip-content{
+	width: 1178px;
+	height: 385px;
+	background-color: #FFF;
+	border: 1px solid #D9D9D9;
+	border-top: 0;
+}
+.tcont-title{
+	display: inline-block;
+	position: relative;
+	width: 1148px;
+	height: auto;
+	margin: 0 15px;
+}
+.tcont-title-ul{
+	display: inline-block;
+	width: auto;
+	float: left;
+}
+.tcont-title-ul li{
+	display: inline-block;
+	height: 20px;
+	text-decoration: none;
+	margin: 10px 6px;
+	border-radius: 3px;
+}
+.tcont-title-ul li:first-child{
+	background-color: #2577E3;
+}
+.tcont-title-ul li:first-child a{
+	color: #FFF;
+}
+.tcont-title-ul li:hover{
+	background-color: #2577E3;
+}
+.tcont-title-ul li:hover a{
+	color: #FFF;
+}
+.tcont-title-ul a{
+	height: 30px;
+	margin: 0 8px;
+	color: #2577E3;
+	font: 12px "Microsoft yahei",arial, sans-serif;
+	line-height: 20px;
+	text-decoration: none;
+}
+.tcont-title-more{
+	position: absolute;
+	right: 0;
+	margin: 10px 0;
+}
+.tcont-title-more a{
+	height: 30px;
+	margin: 0 4px;
+	color: #2577E3;
+	font: 12px "Microsoft yahei",arial, sans-serif;
+	line-height: 20px;
+	text-decoration: none;
+}
+.trip-image-list{
+	display: inline-block;
+	width: 904px;
+	height: 330px;
+	margin-left: 21px;
+}
+.trip-image-list li{
+	display: inline-block;
+	width: 220px;
+	height: 160px;
+	margin: 0 6px 10px 0;
+	overflow: hidden;
+}
+.trip-image-list li:hover{
+	cursor: pointer;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+.trip-image-list li:hover img{
+	transition: 0.5s transform;
+	transform: scale(1.05, 1.05);
+}
+.trip-image-list li .imgscale{
+	display: inline-block;
+	position: absolute;
+	width: 220px;
+	height: 110px;
+	overflow: hidden;
+}
+.trip-image-list li .imgscale img{
+	width: 220px;
+	height: 110px;
+}
+.imglist-info{
+	display: inline-block;
+	position: relative;
+	top: 85px;
+	width: 210px;
+	height: 25px;
+	padding: 0 5px;
+	background-color: #000;
+	/* 透明度 */ 
+    opacity: 0.4;
+}
+.trip-image-list li span{
+	position: relative;
+	top: 60px;
+	font: 12px "Microsoft yahei",arial, sans-serif;
+	color: #FFF;
+	margin: 0 5px;
+	line-height: 24px;
+}
+.list-info{
+	display: inline-block;
+	position: relative;
+	top: 61px;
+	width: 220px;
+	height: 46px;
+}
+.list-info code{
+	display: inline-block;
+	width: 210px;
+	margin: 2px 5px;
+	font: 12px "Microsoft yahei",arial, sans-serif;
+	color: #666;
+line-height: 18px;
+}
+.list-info strong{
+	display: inline-block;
+	margin: 7px 5px;
+	font: 12px "Microsoft yahei",arial, sans-serif;
+	color: #999;
+}
+.list-info p{
+	display: inline-block;
+	height: 28px;
+	position: absolute;
+	right: 0;
+	margin: 0 5px;
+	font: 26px "Microsoft yahei",arial, sans-serif;
+	color: #FF8000;
+	line-height: 26px;
+}
+.list-info p em{
+	vertical-align: top;
+	font: 9px "Microsoft yahei",arial, sans-serif;
+	color: #666;
+	font-weight: bold;
+}
+.list-info p i{
+	/*vertical-align: top;*/
+	font: 10px "Microsoft yahei",arial, sans-serif;
+	color: #666;
+}
+.trip-right-ad{
+	display: inline-block;
+	position: absolute;
+	width: 232px;
+	height: 330px;
+	background-image: url("../img/trip-ad.png");
+	text-align: center;
+	text-decoration: none;
+}
+.trip-right-ad p{
+	display: inline-block;
+	position: relative;
+	top: 300px;
+	width: 222px;
+	height: 30px;
+	padding: 0 5px;
+	background-color: #000;
+	/* 透明度 */ 
+    opacity: 0.4;
+}
+.trip-right-ad span{
+	position: relative;
+	top: 270px;
+	font: 12px/1.5 "Microsoft yahei",arial, sans-serif;
+	color: #FFF;
+	line-height: 30px;
+}
+/* --- 旅游模块 end --- */
+/* --- 酒店模块 start --- */
+.hotel-module{
+	position: relative;
+	width: 1180px;
+	height: 440px;
+	margin: 28px 42.5px 0;
+	text-align: left;
+}
+/* 左侧描述信息*/
+.hcont-info{
+	display: inline-block;
+	width: 189px;
+	height: 365px;
+	padding: 10px 15px;
+	border-right: 1px dotted #D9D9D9;
+}
+.hcont-info p{
+	font: 16px/1.5 "Microsoft yahei",arial, sans-serif;
+	color: #000;
+	font-weight: bold;
+	line-height: 30px;
+	margin: 4px 0;
+}
+.hcont-info a{
+	font: 12px/1.5 "Microsoft yahei",arial, sans-serif;
+	color: #000;
+	line-height: 30px;
+	text-decoration: none;
+}
+.hcont-info a:hover{color: #2577E3}
+.hcont-imglist-title {
+	width: 917px;
+}
+.hcont-imglist{
+	display: inline-block;
+	width: 947px;
+	height: 380px;
+	vertical-align: top;
+}
+.hcont-image-list{
+	width: 685px;
+	height: 340px;
+}
+.hcont-imglist-bgimg{
+	display: inline-block;
+	position: absolute;
+	width: 220px;
+	height: 160px;
+	overflow: hidden;
+}
+.hcont-imglist-bgimg img{
+	width: 220px;
+	height: 160px;
+}
+/* 背景原型透明部分 */
+.bg-circle{
+	display: inline-block;
+	position: relative;
+	top: -135px;
+	left: 54px;
+	width: 112px;
+	height: 112px;
+	border-radius: 56px;
+	background-color: #000;
+	/* 透明度 */ 
+    opacity: 0.4;
+}
+.hcont-bg-info{
+	display: inline-block;
+	position: absolute;
+	top: 40px;
+	left: 54px;
+	width: 112px;
+	height: 80px;
+	text-align: center;
+}
+.hcont-bg-info strong{
+	font: 18px/1.5 "Microsoft yahei",arial, sans-serif;
+	color: #FFF;
+	font-weight: bold;
+	line-height: 30px;
+	margin: 4px 0;
+}
+.hcont-bg-info code{
+	font: 12px/1.5 "Microsoft yahei",arial, sans-serif;
+	color: #FFF;
+}
+.hcont-bg-info p{
+	display: inline-block;
+	width: 90px;
+	font: 22px "Microsoft yahei",arial, sans-serif;
+	color: #FF8000;
+	border-top: 1px solid #FFF;
+	padding: 5px 0;
+}
+.hcont-bg-info p em{
+	vertical-align: top;
+	font: 9px/1.5 "Microsoft yahei",arial, sans-serif;
+	color: #FFF;
+}
+.hcont-bg-info p i{
+	font: 9px/1.5 "Microsoft yahei",arial, sans-serif;
+	color: #FFF;
+}
+/* --- 酒店模块 end --- */
+/* --- 机票模块 start --- */
+.fticket-module{
+	position: relative;
+	width: 1180px;
+	height: 440px;
+	margin: 28px 42.5px 0;
+	text-align: left;
+}
+.fticket-content{
+	width: 1178px;
+	height: 415px;
+	background-color: #FFF;
+	border: 1px solid #D9D9D9;
+	border-top: 0;
+}
+.ftcont-list{
+	display: inline-block;
+	width: 904px;
+	height: 375px;
+	margin-left: 21px;
+}
+.ftcont-list li{
+	display: inline-block;
+	width: 185px;
+	height: 90px;
+	position: relative;
+	padding: 10px 15px;
+	margin: 10px 5px 0;
+	background-color: #F4F4F4;
+}
+.ftcont-list li:hover{
+	cursor: pointer;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.ftcont-list li p{
+	font: 12px/1.5 "Microsoft yahei";
+	color: #000;
+	margin: 5px 0;
+}
+.ftcont-list li p i{
+	display: inline-block;
+	width: 12px;
+	height: 8px;
+	margin: 0 10px;
+	background-image: url("../img/un_index.png");
+	background-position: -1px -116px;
+}
+.ftcont-list li code{
+	font: 12px/1.5 "Microsoft yahei";
+	color: #999;
+}
+.ftcont-list li em{
+	font: 9px/1.5 "Microsoft yahei";
+	color: #000;
+}
+.ftcont-list li strong{
+	font: 22px/1.5 "Microsoft yahei";
+	color: #FF8000;
+	font-weight: bold;
+}
+.ftcont-list li span{
+	display: inline-block;
+	width: 50px;
+	height: 25px;
+	position: absolute;
+	right: 15px;
+	border-radius: 5px;
+	padding: 2px 5px;
+	background-color: #F6A209;
+	font: 14px/1.5 "Microsoft yahei";
+	color: #FFF;
+	text-align: center;
+	line-height: 25px;
+}
+.ftcont-ad{
+	height: 350px;
+	margin-top: 10px;
+	background-image: url("../img/fticket-ad.jpg");
+}
+/* --- 机票模块 end --- */
+/* --- 租车模块 start --- */
+.rentcars-module{
+	position: relative;
+	width: 1180px;
+	height: 260px;
+	margin: 28px 42.5px 0;
+	text-align: left;
+}
+.rentcars-content{
+	width: 1178px;
+	height: 220px;
+	background-color: #FFF;
+	border: 1px solid #D9D9D9;
+	border-top: 0;
+}
+.rcont-imglist-ul{
+	display: inline-block;
+	width: 928px;
+	height: 170px;
+	padding: 5px 15px;
+}
+.rcont-imglist-ul li{
+	display: inline-block;
+	width: 222px;
+	height: 160px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 5px;
+}
+.rcont-imglist-ul li:hover{
+	cursor: pointer;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+.rcont-imglist-ul li:hover img{
+	transition: 0.5s transform;
+	transform: scale(1.05, 1.05);
+}
+.rcont-imglist-ul li a{
+	display: inline-block;
+	width: 220px;
+	height: 160px;
+	margin: 0 6px 10px 0;
+	overflow: hidden;
+}
+.rlist-info{
+	display: inline-block;
+	position: relative;
+	width: 220px;
+	height: 46px;
+}
+.rlist-info code{
+	display: inline-block;
+	width: 210px;
+	margin: 2px 5px;
+	font: 12px "Microsoft yahei",arial, sans-serif;
+	color: #666;
+line-height: 18px;
+}
+.rlist-info strong{
+	display: inline-block;
+	margin: 7px 5px;
+	font: 12px "Microsoft yahei",arial, sans-serif;
+	color: #999;
+}
+.rlist-info p{
+	display: inline-block;
+	height: 28px;
+	position: absolute;
+	right: 0;
+	margin: 0 5px;
+	font: 26px "Microsoft yahei",arial, sans-serif;
+	color: #FF8000;
+	line-height: 26px;
+}
+.rlist-info p em{
+	vertical-align: top;
+	font: 9px "Microsoft yahei",arial, sans-serif;
+	color: #666;
+	font-weight: bold;
+}
+.rlist-info p i{
+	/*vertical-align: top;*/
+	font: 10px "Microsoft yahei",arial, sans-serif;
+	color: #666;
+}
+/* --- 租车模块 end --- */
+/* --- 玩乐模块 start --- */
+.play-module{
+	position: relative;
+	width: 1180px;
+	height: 260px;
+	margin: 28px 42.5px 0;
+	text-align: left;
+}
+.play-content{
+	width: 1178px;
+	height: 220px;
+	background-color: #FFF;
+	border: 1px solid #D9D9D9;
+	border-top: 0;
+}
+.pcont-info{
+	display: inline-block;
+	width: 189px;
+	height: 200px;
+	padding: 10px 15px;
+	border-right: 1px dotted #D9D9D9;
+}
+.pcont-info p{
+	font: 16px/1.5 "Microsoft yahei",arial, sans-serif;
+	color: #000;
+	font-weight: bold;
+	line-height: 30px;
+	margin: 4px 0;
+}
+.pcont-infoul{
+	display: inline-block;
+	width: 200px;
+	height: 140px;
+}
+.pcont-infoul li{
+	display: inline-block;
+	height: 14px;
+	margin: 10px 0;
+}
+.pcont-infoul i{
+	display: inline-block;
+	height: 14px;
+	border-left: 1px solid #D9D9D9;
+	margin: 0 5px;
+}
+.pcont-infoul a{
+	font: 12px "Microsoft yahei",arial, sans-serif;
+	color: #666;
+	text-decoration: none;
+	padding: 0 5px;
+	vertical-align: top;
+}
+.pcont-infoul a:hover{
+	color: #2577E3;
+}
+.rcont-imglist-ul .imgscale{
+	display: inline-block;
+	position: relative;
+	width: 220px;
+	height: 110px;
+	overflow: hidden;
+}
+.rcont-imglist-ul .imgscale img{
+	width: 220px;
+	height: 110px;
+}
+/* --- 玩乐模块 end --- */
+/* --- 全球购模块 start --- */
+.globalbuy-module{
+	position: relative;
+	width: 1180px;
+	height: 260px;
+	margin: 28px 42.5px 0;
+	text-align: left;
+}
+.globalbuy-content{
+	width: 1178px;
+	height: 220px;
+	background-color: #FFF;
+	border: 1px solid #D9D9D9;
+	border-top: 0;
+}
+.icon-info{
+	display: inline-block;
+	position: absolute;
+	right: 5px;
+	bottom: 3px;
+}
+.icon-info span{
+	display: inline-block;
+	width: 30px;
+	height: 14px;
+	border: 1px solid red;
+	font: 10px "Microsoft yahei",arial, sans-serif;
+	color: red;
+	text-align: center;
+	line-height: 14px;
+	margin: 0 2px;
+}
+/* --- 全球购模块 end --- */
+/* --- 目的地攻略模块 start --- */
+.guide-module{
+	position: relative;
+	width: 1180px;
+	height: 260px;
+	margin: 28px 42.5px 0;
+	text-align: left;
+}
+.guide-content{
+	width: 1178px;
+	height: 220px;
+	background-color: #FFF;
+	border: 1px solid #D9D9D9;
+	border-top: 0;
+}
+.gcont-info{
+	height: 200px;
+}
+.gcont-imglist{
+	display: inline-block;
+	width: 958px;
+	height: 220px;
+	vertical-align: top;
+}
+.gcont-imglist-title{
+	width: 928px;
+}
+.gcont-imglist-ul{
+	display: inline-block;
+	width: 928px;
+	height: 170px;
+	padding: 5px 15px;
+}
+.gcont-imglist-ul li{
+	display: inline-block;
+	width: 222px;
+	height: 160px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 5px;
+}
+.gcont-imglist-ul img{
+	display: inline-block;
+	position: absolute;
+	width: 222px;
+	height: 160px;
+	text-decoration: none;
+}
+.gcont-imglist-ul p{
+	display: inline-block;
+	font: 12px/1.5 "Microsoft yahei";
+	color: #FFF;
+	position: absolute;
+	top: 135px;
+}
+.gcont-imglist-ul li:hover{
+	cursor: pointer;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.gcont-imglist-ul li:hover span{
+	transition: 0.5s transform;
+	transform: translateY(-20px);
+	height: 50px;
+}
+.gcont-imglist-ul li:hover img{
+	transition: 0.5s transform;
+	transform: scale(1.05, 1.05);
+}
+.gcont-imglist-ul span{
+	display: inline-block;
+	position: absolute;
+	top: 130px;
+	width: 212px;
+	height: 30px;
+	padding: 0 5px;
+	background-color: #000;
+	/* 透明度 */ 
+    opacity: 0.4;
+}
+/* --- 目的地攻略模块 end --- */
+/* --- 旅行服务模块 start --- */
+.travel-module{
+	position: relative;
+	width: 1180px;
+	height: 196px;
+	margin: 28px 42.5px 0;
+	text-align: left;
+}
+.travel-content{
+	width: 1180px;
+	height: 156px;
+	background-color: #F4F4F4;
+	border-top: 0;
+}
+.travel-content-div{
+	display: inline-block;
+	width: 385px;
+	height: 145px;
+	margin: 10px 9.5px 0 0;
+	float: left;
+	border: 1px solid #D9D9D9;
+	background-color: #FFF;
+}
+.tcontent-top{
+	display: inline-block;
+	width: 385px;
+	height: 99px;
+	border-bottom: 1px solid #D9D9D9;
+	background-color: #FFF;
+}
+.tcontent-top:hover{
+	background-color: #E2EEFF;
+}
+.tcontent-img{
+	display: inline-block;
+	position: relative;
+	left: 40px;
+	top: 15px;
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	background-image: url("../img/travel.png");
+	background-repeat: no-repeat;
+}
+.tcontent-text{
+	display: inline-block;
+	position: relative;
+	left: 60px;
+	width: 245px;
+	height: 70px;
+}
+.tcontent-text b{
+	font: 16px/1.5 "Microsoft yahei";
+	color: #333;
+}
+.tcontent-text p{
+	font: 12px/1.5 "Microsoft yahei";
+	color: #666;
+}
+.tcontent-item{
+	display: inline-block;
+	width: 385px;
+	height: 45px;
+}
+.tcontent-item i{
+	display: inline-block;
+	height: 24px;
+	border-left: 1px dashed #999;
+	vertical-align: middle;
+}
+.tcontent-item li{
+	display: inline-block;
+	width: 95.5px;
+	height: 45px;
+	text-align: center;
+	cursor: pointer;
+}
+.tcontent-item li:hover{
+	background-color: #E2EEFF;
+}
+.tcontent-item li img{
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	margin: 0 5px;
+	border-radius: 12px;
+}
+.tcontent-item li a{
+	display: inline-block;
+	height: 24px;
+	font: 12px/1.5 "Microsoft yahei";
+	color: #333;
+	line-height: 24px;
+	text-decoration: none;
+	vertical-align: middle;
+	margin: 10px 5px;
+}
+/* --- 旅行服务模块 end --- */
+/* --- 站点地图 start ---*/
+.webmap{
+	position: relative;
+	width: 1178px;
+	height: 320px;
+	margin: 28px 42.5px 0;
+	border: 1px solid #D9D9D9;
+	background-color: #FFF;
+	text-align: left;
+}
+.benefit{
+	position: relative;
+	width: 217px;
+	height: 100px;
+	border-right: 1px solid #D9D9D9;
+	border-bottom: 1px solid #D9D9D9;
+	float: left;
+}
+.benefit-title{
+	display: inline-block;
+	width: 217px;
+	height: 40px;
+}
+.benefit-title p{
+	display: inline-block;
+	margin: 10px 20px 5px;
+	font: 16px/1.5 "Microsoft yahei";
+	color: #333;
+}
+.benefit-title a{
+	display: inline-block;
+	position: absolute;
+	right: 8px;
+	margin: 12px 0;
+	font: 12px/1.5 "Microsoft yahei";
+	color: #999;
+	text-decoration: none;
+}
+.benefit-cont{
+	display: inline-block;
+	width: 217px;
+	height: 60px;
+}
+.benefit-cont a{
+	display: inline-block;
+	margin: 1px 20px;
+	font: 12px/1.5 "Microsoft yahei";
+	color: #666;
+	text-decoration: none;
+}
+.benefit-title a:hover ,.benefit-cont a:hover{
+	color: #2577E3;
+}
+.friends{
+	position: relative;
+	width: 960px;
+	height: 100px;
+	border-bottom: 1px solid #D9D9D9;
+	float: left;
+}
+.friends-img{
+	display: inline-block;
+	width: 941px;
+	height: 60px;
+	position: relative;
+	left: 19px;
+}
+.friends-img li{
+	display: inline-block;
+}
+.friends-img a{
+	display: inline-block;
+	width: 76px;
+	height: 28px;
+	margin: 10px 40px;
+	background-image: url("../img/pic_partner.png");
+	vertical-align: middle;
+}
+.friends-img i{
+	display: inline-block;
+	height: 30px;
+	border-left: 1px dashed #999;
+	vertical-align: middle;
+}
+.ctrip-nav{
+	display: inline-block;
+	width: 1178px;
+	position: relative;
+}
+.ctrip-nav i{
+	display: inline-block;
+	width: 1160px;
+	border-top: 1px dotted #CCCCCC;
+	margin: 0 10px;
+	position: relative;
+}
+.ctrip-nav a{
+	font: 12px/1.5 "Microsoft yahei";
+	margin: 0 10px;
+	line-height: 30px;
+	text-decoration: none;
+}
+.ctrip-nav-title{
+	display: inline-block;
+	position: relative;
+	width: 74px;
+}
+.ctrip-nav-title a{
+	font-weight: bold;
+	color: #333;
+}
+.ctrip-nav ul{
+	display: inline-block;
+	width: 1104px;
+}
+.ctrip-nav li{
+	display: inline-block;
+	width: 92px;
+	height: 30px;
+}
+.ctrip-nav li a{
+	color: #999;
+}
+.ctrip-nav li a:hover{
+	color: #2755E3;
+}
+/* --- 站点地图 end ---*/
+/* --- Content end --- */
+/* --- 底部元素 start ---*/
+.footer{
+	display: inline-block;
+	width: 100%;
+	height: 440px;
+	position: relative;
+}
+.fri-links{
+	display: inline-block;
+	width: 1180px;
+	height: 200px;
+	text-align: left;
+}
+.links-contul{
+	display: inline-block;
+	width: 1015px;
+	height: 200px;
+}
+.links-contul i{
+	display: inline-block;
+	height: 160px;
+	border-left: 1px solid #E0E0E0;
+	margin-top: 20px;
+}
+.links-contli{
+	position: relative;
+	display: inline-block;
+	width: 250px;
+	height: 180px;
+	margin: 10px 0;
+	vertical-align: top;
+}
+.links-contli p{
+	color: #333;
+	font: 16px/1.5 "Microsoft yahei";
+	margin: 10px 40px 0;
+}
+.links-contli:first-child p{
+	margin-left: 5px;
+}
+.links-contli:first-child a{
+	display: inline-block;
+	width: 240px;
+	height: 160px;
+	margin: 5px 5px 5px 0;
+	text-decoration: none;
+}
+.links-contli a em{
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	margin: 10px 5px;
+	border-radius: 18px;
+	background-image: url("../img/pic_partner.png");
+}
+.links-contli a code{
+	display: inline-block;
+	font: 16px/1.5 "Microsoft yahei";
+	padding-left: 50px;
+	font-weight: bold;
+	margin: 6px 0 0;
+}
+.links-contli a span{
+	color: #000;
+	font: 12px/1.5 "Microsoft yahei";
+	padding-left: 50px;
+}
+.contli-itemsul{
+	display: inline-block;
+	width: 200px;
+	height: 130px;
+	margin: 10px 0 0 40px;
+}
+.contli-itemsul li{
+	display: inline-block;
+	width: 100px;
+	height: 25px;
+}
+.contli-itemsul li a{
+	font: 12px/1.5 "Microsoft yahei";
+	color: #333;
+	line-height: 25px;
+	text-decoration: none;
+}
+.contli-itemsul li a:hover{ color: #2577E3; }
+.links-qrcode{
+	display: inline-block;
+	width: 150px;
+	height: 206px;
+	text-align: center;
+	vertical-align: top;
+}
+.links-qrcode p{
+	color: #333;
+	font: 12px/1.5 "Microsoft yahei";
+	margin: 20px 40px 0;
+}
+.qrcode-cont{
+	display: inline-block;
+	width: 130px;
+	height: 150px;
+	border: 1px solid #E0E0E0;
+	margin: 8px 0;
+}
+.qrcode-cont img{
+	display: inline-block;
+	width: 112px;
+	height: 112px;
+	margin-top: 10px;
+}
+.qrcode-cont p{
+	color: #333;
+	font: 12px/1.5 "Microsoft yahei";
+	margin: 5px 0;
+}
+/* 工商备案*/
+.copyright{
+	display: inline-block;
+	width: 1000px;
+	height: 100px;
+	margin-top: 20px;
+}
+.copyright a,p{
+	display: inline-block;
+	font: 12px/1.5 "Microsoft yahei";
+	color: #666;
+	text-decoration: none;
+	margin: 3px 0;
+}
+.copyright a:hover{color: #2577E3;}
+.copyright i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 3px;
+	background-image: url("../img/phone_list.png");
+	background-position: 0 -235px;
+	vertical-align: middle;
+}
+.copyright-imglist{
+	display: inline-block;
+}
+.copyright-imglist a,.copyright-imglist span{
+	display: inline-block;
+	width: 88px;
+	height: 32px;
+	border: 1px solid #E0E0E0;
+	background-image: url("../img/phone_list.png");
+	margin: 5px 5px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-color: #FFF;
+	text-align: right;
+	line-height: 30px;
+	color: #666;
+}
+.copyright-imglist span{
+	width: 128px;
+	background-position: 0 -155px;
+}
+.footer-ad{
+	display: inline-block;
+	width: 1180px;
+	height: 90px;
+	margin: 10px 0;
+	cursor: pointer;
+	overflow: hidden;
+	text-align: left;
+	background-color: #FFF;
+}
+.footer-ad div{
+	position: absolute;
+	animation: round 15s linear infinite;
+}
+/* --- 底部元素 end ---*/

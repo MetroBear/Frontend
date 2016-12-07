@@ -1,0 +1,27 @@
+.cui-icon-flight {background-position: 0 0;}    /*机票*/
+.cui-icon-hotel {  background-position: -26px 0;}  /*酒店*/
+.cui-icon-train {  background-position: -52px 0;}  /*火车票*/
+.cui-icon-bus {background-position: -78px 0;}  /*汽车票*/
+.cui-icon-boat {   background-position: -104px 0;}     /*船票*/
+.cui-icon-car {width: 17px;    background-position: -130px 0;}  /*用车*/
+.cui-icon-vacations {  background-position: 0 -26px;}    /*旅游*/
+.cui-icon-ticket { background-position: -26px -26px;}    /*门票*/
+.cui-icon-huodong {background-position: -52px -26px;}    /*玩乐*/
+.cui-icon-insurance {  background-position: -78px -26px;}   /*保险*/
+.cui-icon-HHtravel {   background-position: -104px -26px;}   /*HHtravel*/
+.cui-icon-wifi {   background-position: -130px -26px;}   /*wifi*/
+.cui-icon-visa {   background-position: 0 -52px;}   /*签证*/
+.cui-icon-outboundtravel { background-position: -26px -52px;}   /*出境游*/
+.cui-icon-taocan { background-position: -52px -52px;}   /*酒+景*/
+.cui-icon-card {   background-position: -78px -52px;}   /*礼品卡*/
+.cui-icon-g {  background-position: -104px -52px;}   /*全球购*/
+.cui-icon-tuan {   background-position: -130px -52px;}   /*团购*/
+.cui-icon-standby {background-position: 0 -78px;}  /*保底*/
+
+/*合作伙伴图片定位*/
+.partner_hh {background-position: 0 0;}
+.partner_lp {background-position: 0 -33px;}
+.partner_sg {background-position: 0 -66px;}
+.partner_tj {background-position: 0 -99px;}
+.partner_ya {background-position: 0 -132px;}
+.partner_yy {background-position: 0 -165px;}
